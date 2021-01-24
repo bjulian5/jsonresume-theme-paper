@@ -2,6 +2,7 @@
 body, html {
   background-color: white;
   padding-top: 1.5em;
+  font-size: 14px;
 }
 
 .paper {
@@ -37,6 +38,10 @@ header p {
   margin-top: -1.6em;
 }
 
+.content-wrapper {
+  padding-right: 4.25%;
+}
+
 .content-wrapper > .content:first-child {
   padding-top: 2em;
 }
@@ -46,8 +51,10 @@ header p {
 }
 
 .content-cat {
-  width:33%;
-  color:black;
+  width: 26%;
+  padding-left: 4.25%;
+  padding-right: 2.25%;
+  color: black;
   text-align: left;
 }
 
